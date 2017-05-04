@@ -1,0 +1,97 @@
+html{
+	margin:0;
+	padding:0;
+}
+
+
+.main{
+	margin:0 auto;
+	max-width:980px;
+	height:auto;
+}
+
+.autorization{
+	border-radius:2px;
+	width:400px;
+	height:300px;
+	border:1px solid #595959;
+	margin:20% auto;
+	text-align:center;
+}
+
+.autorization h1{
+font-family:'Arial';
+text-align:center;
+color:#3B3B3B;
+
+
+}
+ input:required {
+    border: 1px solid red; /* Красная рамка для обязательных полей */
+   }
+
+
+input[type="text"]:focus { outline: none; }
+input[type="password"]:focus { outline: none; }
+
+input[type="text"]
+ { border:1px solid #595959;
+ margin-top:13px;
+padding:5px;
+letter-spacing:1px;
+ font-size:1em;
+ color:#2F2F2F;
+ font-weight:normal;
+ text-align:center;
+ }
+ input[type="password"]
+ { border:1px solid #595959;
+ margin-top:13px;
+padding:5px;
+
+letter-spacing:1px;
+ font-size:1em;
+ color:#2F2F2F;
+ font-weight:normal;
+ text-align:center;
+ }
+ 
+ 
+form{
+	
+	margin-top:25px;
+}
+
+
+.btn{
+	color:#2F2F2F;
+	margin-top:35px;
+	width:150px;
+	border:1px solid #595959;
+	height:20px;
+	cursor:pointer;
+	
+	text-align:center;
+	background-color:#fff;
+}
+
+.btn:focus{
+outline:none;
+}	
+
+a{
+	
+color:#2F2F2F;
+text-decoration:none;
+
+display:block;
+margin:20px auto;
+text-align:center;
+font-family:'Arial';
+}
+
+
+a:hover{
+	
+color:#AD48D8;
+}

@@ -1,0 +1,221 @@
+html body{
+	padding:0;
+	margin:0;
+}
+
+body{
+	background-color:#EAEAEA;
+	
+}
+
+header{
+	overflow:hidden;
+	width:100%;
+	background-color:#fff;
+	height:50px;
+}
+
+.center{
+		margin:0 auto;
+		max-width:860px;
+}
+nav{
+	float:right;
+}
+
+
+nav li{
+	font-family:'Arial';
+	font-size:1em;
+	float:left;
+	padding-right:5px;
+	list-style:none;
+	cursor:pointer;
+}
+nav a{
+	text-decoration:none;
+	color:#000;
+}
+
+ .logo h1{
+	margin-top:4.5px;
+	font-size:2em;
+	float:left;
+	letter-spacing:-1px;
+	color:#000;
+	cursor:pointer;
+	font-family:'Arial';
+}
+.main{
+	
+	max-width:860px;
+	margin:0 auto;
+	height:100hv;
+	
+}
+
+
+textarea{
+	border-radius:5px;
+	letter-spacing:1px;
+	border:none;
+	resize:none;
+	height:130px;
+	margin-top:15px;
+	width:100%;
+	font-size:1em;
+	font-family:'Arial'
+}
+textarea:focus{
+	letter-spacing:1px;
+	outline:none;
+}
+
+#name{
+	
+	font-family:Arial;
+	text-align:center;
+	font-size:1.5em;
+	}
+	
+	
+#btn{
+	float:right;
+	border:none;
+	border-radius:5px;
+	margin-top:10px;
+	width:120px;
+	height:auto;
+	font-family:'Arial';
+	padding:5px;
+	font-size:1em;
+	background-color:#FFDD00;
+	cursor:pointer;
+	letter-spacing:1px;
+}	
+#title{
+	background-color:#FFDD00;
+	border:none;
+	border-radius:5px;
+	font-size:1.250em;
+	font-family:'Arial';
+	padding:10px;
+	float:left;
+	margin-top:10px;
+	width:100%;
+
+	
+}
+
+#title::-webkit-input-placeholder {color:#000;}
+#title::-moz-input-placeholder          {color:#000;}/* Firefox 19+ */
+
+
+
+#title:focus{
+	outline:none;
+}
+
+.author{
+	font-family:'Arial';
+	padding:0;
+	color:#000;
+	cursor:pointer;
+	margin:0;
+	font-size:1.05em;
+	margin-top:10px;
+	font-weight:bold;
+	
+}
+.date{
+	display:inline-block;
+	
+	background-color:#FFDD00;
+	font-family:'Arial';
+	padding:0;
+	color:#000;
+	cursor:pointer;
+	margin:0;
+	font-size:1.05em;
+	margin-top:5px;
+	
+	
+}
+.content_manager{
+	
+	margin-top:10px;
+	width:100%;
+	height:auto;
+	margin-bottom:40px;
+	background-color:#fff;
+	
+	
+}
+
+#date{
+	
+	margin:0;
+	padding:0;
+	font-family:'Arial';
+}
+
+
+.title_of_article {
+	padding:0;
+	margin:0;
+	display:inline-block;
+	
+	background-color:#FFDD00;
+	font-family:'Arial';
+}
+
+.content_manager p {
+	font-size:1.250em;
+	padding:10px;
+	font-family:'Calibri';
+	text-align:left;
+}
+
+.all_article{
+	
+	padding:5px;
+	margin-bottom:10px;
+}
+
+#search{
+
+	background-color:#FFF;
+	border:none;
+	border-radius:5px;
+	font-size:1.125em;
+	font-family:'Arial';
+	padding:8px;
+	margin-bottom:20px;
+	float:left;
+	margin-top:50px;
+	width:80%;
+
+	
+}
+
+#search:focus{
+	outline-color:#FFDD00;
+}
+
+#btn_search{
+	
+	float:right;
+	border:none;
+	border-radius:5px;
+	
+	margin-top:35px;
+	width:120px;
+	height:auto;
+	font-family:'Arial';
+	padding:3px;
+	font-size:1em;
+	background-color:#FFDD00;
+	cursor:pointer;
+	letter-spacing:1px;
+	
+}
